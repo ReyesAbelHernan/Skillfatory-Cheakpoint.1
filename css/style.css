@@ -1,0 +1,366 @@
+.formulario  {
+    background: #f5f5f5;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.formulario  form{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    box-shadow: 0 0 20px 0 rgba(71, 71, 71, 0.295);
+    width: 450px;
+    height: 750px;
+    padding: 30px;
+    margin-left: 45px;
+}
+
+.formulario  h3 {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 70px;
+    color: #55595c;
+}
+
+.formulario  label {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+    margin-top: 25px;
+}
+
+.formulario  input {
+    width: 100%;
+}
+
+.formulario  input[type="nombre"],
+.formulario  input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #55595c;
+    background: transparent;
+    outline: none;
+    color: #55595c;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+.formulario  input[type="submit"] {
+    margin-top: 40px;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border: 1px solid #6c757d;
+    border-radius:  0.375rem;
+    color: #6c757d;
+
+}
+
+
+.formulario  input[type="submit"]:hover{
+    color: #ffffff;
+    background-color: #55595c;
+}
+
+
+.formulario  a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #c0c0c0;
+    text-align: center;
+    
+}
+
+.formulario  a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.formulario  label {
+        color: #c0c0c0; 
+}
+
+.textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom:  20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 390px;
+    height: 150px;
+    transition: all 0.2s;
+  }
+  
+  .textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+  
+  .textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+  
+
+
+
+  #contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 65px;
+    margin-left: 65px;
+  }
+
+  #results {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    box-shadow: 0 0 20px 0 rgba(71, 71, 71, 0.295);
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+    word-wrap: break-word;
+  }
+
+  #results #mensaje {
+    height: 200px;
+    width: auto;
+    word-wrap: break-word;
+  }
+
+
+  section h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 70px;
+    color: #55595c;
+    margin-bottom: 30px;
+    }
+
+
+    section h4 {
+    display: flex;
+    justify-content: center;
+    color: #55595c;
+    font-size: 30px;
+    margin: 15px;
+  }
+
+
+
+  #usersTable {
+    height: 2000px;
+    width: auto;
+
+  }
+
+  #usersTable .col {
+    height: 70px;
+    width: 600px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    
+  }
+
+  #usersTable .container:hover {
+    background-color: #55595c3f;
+
+  }
+
+
+
+@font-face {
+    font-family: rym;
+    src: url(./get_schwifty.ttf);
+}
+
+.rym {
+    font-family: rym;
+    font-size: 28px;
+    color: #2cb3d4;
+    text-decoration: none;
+    text-shadow: 1px 1px 6px rgb(121, 255, 54);
+}
+
+.rym:hover {
+    color: #34cf26;
+}
+
+#fetch-cards {
+    background-image: linear-gradient(rgba(5,7,12,0.15),rgba(5,7,12,0.85)), url(./portal.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fetch-cards .card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(5,7,12,0.1),rgba(5,7,12,0.45));
+    background-color: rgba(63, 235, 74, 0.416);
+    border-color:rgba(63, 235, 74, 0) ;
+    width: 350px;
+    height: auto;
+    margin: 100px;
+    --bs-card-border-color: none;
+
+}
+
+h5 {
+    font-family: rym;
+    color: #12b0c8;
+    text-shadow: 0.51px 1px 4px rgb(0, 0, 0);
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 35px;
+}
+
+.Male {
+    background-color: #060079;
+}
+.Female {
+    background-color: #c41aad;
+}
+.Dead {
+    background-color: #FF1E00;
+}
+
+.Alive {
+    background-color: #6ECB63;
+}
+
+.unknown {
+    background-color: rgb(110, 106, 106);
+}
+
+.Human {
+    background-color: #3AB0FF;
+}
+
+.Alien {
+    background-color: #186918;
+}
+.Mythological.Creature {
+    background-color: #FEB139;
+}
+.Disease {
+    background-color: #000000;
+}
+.Cronenberg {
+    background-color: #eefe39;
+}
+.Robot {
+    background-color: #cecece;
+}
+.Humanoid {
+    background-color: #7f308d;
+}
+.Animal{
+    background-color: #4bbeac;
+}
+.Genderless {
+    background-color: #646712;
+}
+
+.card-body .stats{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-body{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-body span {
+    margin: 5px;
+}
+
+.card-body .bg-black {
+    font-size: 20px;
+}
+
+.card-body .location {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.card-body .location span {
+   background-color: #333333;
+   color: white;
+   font-size: 15px;
+    
+}
+
+
+.card-body .species,
+.card-body .gender,
+.card-body .status {
+    font-size: 20px;
+}
+
+
+
+
+.imganRaM {
+    border-radius: 50%;
+}
+
+
+.text-center #pagination {
+    margin-right: 120px;
+}
+
+
+#pagination button{
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #2cb3d4;
+    text-shadow: 1px 1px 6px rgb(121, 255, 54)
+}
+
+
+#pagination button:hover {
+    color: #34cf26;
+}
